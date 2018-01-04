@@ -1,0 +1,32 @@
+{
+  "name": "welcome-dindon",
+  "version": "1.0.0",
+  "description": "Welcome to Parco DinDon for Messenger Platform",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "lint": "jshint --exclude node_modules .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://source.developers.google.com/p/messenger-get-started/r/default"
+  },
+  "author": "Achille Franzetti",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "config": "^1.21.0",
+    "ejs": "^2.4.2",
+    "express": "^4.14.0",
+    "request": "^2.73.0"
+  },
+  "engines": {
+    "node": "~4.1.2"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "parco",
+    "dindon"
+  ]
+}
